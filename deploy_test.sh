@@ -29,3 +29,7 @@ for dir in exercises/*  ; do
 
   echo
 done
+
+if [ $? ]; then
+  echo "All tests have passed."
+fi
