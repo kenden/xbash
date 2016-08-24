@@ -19,12 +19,11 @@ for dir in exercises/*  ; do
     ex_name="${ex_name2}"
   fi
 
-  # create the exercice file that the test expect
+  # create the exercice file that the test file expects
   cp example.sh "${ex_name}.sh"
 
   # check if the tests pass for this exercise
   bats "${ex_name}_test.sh"
-
 
   cd ../../
 
