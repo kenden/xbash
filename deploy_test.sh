@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# IDEA: maybe it is possible to run the test only for the directory that changed?
+
 set -e # exit if any errors
 
 for dir in exercises/*  ; do
